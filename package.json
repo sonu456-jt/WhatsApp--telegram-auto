@@ -1,17 +1,6 @@
-
-{
-  "name": "wa-tele-auto-complete",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "login": "node login.js",
-    "getgroups": "node getGroups.js"
-  },
-  "dependencies": {
-    "@whiskeysockets/baileys": "^6.4.0",
-    "axios": "^1.4.0",
-    "node-telegram-bot-api": "^0.61.0",
-    "vcard-parser": "^0.1.9"
-  }
+"dependencies": {
+  "@whiskeysockets/baileys": "^6.4.0",
+  "axios": "^1.4.0",
+  "node-telegram-bot-api": "^0.61.0",
+  "vcf": "^2.1.2"
 }
