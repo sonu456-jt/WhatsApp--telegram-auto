@@ -1,6 +1,14 @@
-"dependencies": {
-  "@whiskeysockets/baileys": "^6.4.0",
-  "axios": "^1.4.0",
-  "node-telegram-bot-api": "^0.61.0",
-  "vcf": "^2.1.2"
+{
+  "name": "whatsapp-telegram-auto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "axios": "^1.4.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "vcf": "^2.1.2"
+  }
 }
